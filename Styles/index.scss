@@ -1,0 +1,35 @@
+$font-color: #541bbe;
+$font-family: sans-serif;
+$background-color: #fc188a;
+$background-body: #d8c9d4;
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $background-body;
+}
+
+@mixin font(){
+    color: $font-color;
+    font-size: 1.8rem;
+    font-family: $font-family;
+    font-weight: 800;
+    background-color: $background-color;
+}
+
+h1 {
+    @include font;
+    border-radius: 0.5rem;
+    padding: 1rem 0;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+p {
+    color: $font-color;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}

@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #d8c9d4; }
+
+h1 {
+  color: #541bbe;
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  font-weight: 800;
+  background-color: #fc188a;
+  border-radius: 0.5rem;
+  padding: 1rem 0;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto; }
+
+p {
+  color: #541bbe;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0 1rem; }
